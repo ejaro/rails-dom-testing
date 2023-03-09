@@ -3,28 +3,28 @@ PATH
   specs:
     rails-dom-testing (2.0.3)
       activesupport (>= 5.0.0)
-      nokogiri (>= 1.6)
+      nokogiri (~> 1.12, >= 1.12.5)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (6.1.2.1)
+    activesupport (7.0.4.2)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
       tzinfo (~> 2.0)
-      zeitwerk (~> 2.3)
-    concurrent-ruby (1.1.8)
-    i18n (1.8.9)
+    concurrent-ruby (1.2.2)
+    i18n (1.12.0)
       concurrent-ruby (~> 1.0)
+    mini_portile2 (2.8.1)
     minitest (5.10.1)
-    nokogiri (1.11.1)
+    nokogiri (1.14.2)
+      mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
-    racc (1.5.2)
+    racc (1.6.2)
     rake (13.0.1)
-    tzinfo (2.0.4)
+    tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
-    zeitwerk (2.4.2)
 
 PLATFORMS
   ruby
